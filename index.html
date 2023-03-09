@@ -1,1 +1,510 @@
-22-09-27
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <!-- self -->
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+  <title>Yu Wei's Portfolio</title>
+</head>
+<body class="h-100">
+  <div id="yuwei" >
+    <!-- .navbar-mobile -->
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Yu Wei</a>
+        <!-- 漢堡按鈕 -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#wwNavbar" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 下拉摺疊選單 -->
+        <div id="wwNavbar" class="collapse navbar-collapse" >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " href="#aboutMe">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactMe">Contact Me</a>
+            </li>
+          </ul>
+          <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
+        </div>
+      </div>
+    </nav>
+
+    <section id="section01">
+      <div class="container-fluid">
+        <!-- jarallax -->
+        <div class="jarallax" data-jarallax data-speed="0.3" data-type="scroll">
+          <!-- <img class="jarallax-img" src="../images/main01.jpg" /> -->
+          <div class="text-center text-white greet">Hi! I am <span class="bold">Yu Wei</span>.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section02">
+      <div class="container">
+        <h1 id="about" class="text-center">About Me</h1>
+        <div class="d-flex row h-100 justify-content-center align-items-center content02">
+          <div class="col-12 col-lg-4">
+            <div class="selfie m-auto">
+              <img src="./image/IMG_6075.jpg" style="width:300px;">
+            </div>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div>
+              <p class="titleAbout"></p>
+              <!-- <p>5 years + Graphic Designer</p> -->
+              <p>
+                　　您好！我是宇葳，在畢業後的工作期間，曾使用校務系統及專利管理系統，因而體會到UI與UX對於工作效率的重要性，了解相關使用技術後，對於網頁設計產生興趣，於是開始思考自已職涯發展的另一種可能，所以有了轉職網頁設計領域的想法。              </p>
+              <p>
+                　　經過總總評估後，參加為期半年的專業訓練，學會使用HTML、CSS、JavaScript及Bootstrap設計RWD響應式網頁，能串接API資料進行後續應用，可以透過Vue.js、Node.js與MongoDB建立一個前台頁面能與後端系統整合的專題網站。
+              </p>
+              <p>
+                　　過往的工作經驗，使我擁有高度的執行力及團隊合作力，在遇到困難時，也會積極的解決，虛心導正錯誤。在未來我將秉持始終如一的態度，勇往直前，並期許自己能夠在前端開發技術的領域裡持續精進，並為公司及團隊帶來更多的價值!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section03">
+      <div class="container">
+        <h1 id="skills" class="text-center">Skills</h1>
+        <div class="d-flex row h-100 justify-content-center align-items-center content03">
+          <div class="col-12 col-lg-3 col-xl-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="text-center">
+                  <i class="fas fa-pen-fancy"></i>
+                </div>
+                <h5 class="card-title text-center">影像編輯</h5>
+                <div class="card-text item">
+                  <div>
+                    <ul>
+                      <li>Illustrator</li>
+                      <li>Photoshop</li>
+                      <li>Figma</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6 col-xl-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="text-center">
+                  <i class="fas fa-laptop"></i>
+                </div>
+                <h5 class="card-title text-center">前端開發</h5>
+                <div class="card-text d-flex row">
+                  <div class="col-6 item">
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Sass</li>
+                      <li>Bootstrap</li>
+                    </ul>
+                  </div>
+                  <div class="col-6 item">
+                    <ul>
+                      <li>JavaScript</li>
+                      <li>jQuery</li>
+                      <li>Vue.js</li>
+                      <li>Quasar</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3 col-xl-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="text-center">
+                  <i class="fas fa-code"></i>
+                </div>
+                <h5 class="card-title text-center">後端技術</h5>
+                <div class="card-text">
+                  <div class="item">
+                    <ul>
+                      <li>Node.js</li>
+                      <li>MongoDB</li>
+                      <li>Git 版本控管</li>
+                      <br />
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section04">
+      <div class="container">
+        <h1 id="resume" class="text-center">Resume</h1>
+        <div class="d-flex row h-100 justify-content-center content04">
+          <div class="col-12 col-lg-6">
+            <p class="titleAbout">學習歷程</p>
+            <div id="wda">
+              <p class="during">Sep 2022 - Mar 2023</p>
+              <p class="title">泰山職訓－前端網頁開發技術班（青年專班）</p>
+
+              <p>
+                共計936 小時的職前訓練，學習前端開發的技術。
+              </p>
+
+              <p class="mt-2 mb-1 pr-0" style="font-size: 15px">
+                <i class="fas fa-check"></i>
+                <b>程式能力、邏輯思考與專案執行</b>
+              </p>
+
+              <span class="badge badge-pill">HTML</span>
+              <span class="badge badge-pill">CSS</span>
+              <span class="badge badge-pill">SASS</span>
+              <span class="badge badge-pill">Bootstrap</span>
+              <span class="badge badge-pill">JavaScript</span>
+              <span class="badge badge-pill">jQuery</span>
+              <span class="badge badge-pill">Vue.js</span>
+              <span class="badge badge-pill">Quasar</span>
+              <span class="badge badge-pill">Node.js</span>
+              <span class="badge badge-pill">mongoDB</span>
+            </div>
+            <div id="edu">
+              <p class="during">Sep 2014 - Jun 2018</p>
+              <p class="title">國立聯合大學 文化觀光產業學系</p>
+              <!-- <p>　　在學期間除了學習以外，也參加了吉他社，擔任社團的活動長，籌辦社團對內對外各活動，這些都經驗都讓我成長良多。</p> -->
+
+              <p class="mt-2 mb-1 pr-0" style="font-size: 15px">
+                <i class="fas fa-check"></i>
+                <!-- <b>美感培養、設計流程與軟體訓練</b> -->
+              </p>
+
+              <!-- <span class="badge badge-pill">Illustrator</span>
+              <span class="badge badge-pill">Photoshop</span> -->
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <p class="titleAbout">工作經驗</p>
+            <div id="people">
+              <p class="during">Aug 2021 - Jun 2022</p>
+              <p class="title">國立陽明交通大學 - 研發處</p>
+              <ul>
+                <li>負責與各專利事務所接洽，辦理陽明交通大學專利申請及維護管理。</li>
+                <li>負責產學合作先期技轉金預算分配事宜。</li>
+                <li>負責科技部strike系統之專利案件管理。</li>
+              </ul>
+            </div>
+
+            <div id="knsh">
+              <p class="during">Sep 2018 - Aug 2021</p>
+              <p class="title">國立清華大學 - 通訊所</p>
+              <ul>
+                <li>負責計畫行政業務推動、經費使用規劃、人員聘用、資料蒐集整合、會議事項聯絡等。</li>
+                <li>負責相關技轉公文撰寫、會辦及收發。</li>
+                <li>協助辦理系所活動，例如：2019臺灣電信年會、通訊所20周年所慶、校友回娘家、招生說明會等。</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section05">
+      <div class="container">
+        <h1 id="portfolio" class="text-center">Portfolio</h1>
+        <div class="row content05">
+          <div class="col-12 col-md-6 col-lg-4 px-md-2">
+            <a class="card h-100 text-decoration-none" href="https://arielqwq.github.io/vite-shop-front/#/" target="_blank">
+              <!-- <img src="./images/mumu.jpg" class="card-img-top" /> -->
+              <div class="card-body">
+                <h5 class="card-title">小酒窩 WINEhouse</h5>
+                <p class="card-text">
+                  小酒窩是一個便利的線上酒品購物平台，這裡提供年滿18歲的成年人選購各式酒品、也不定時發布最新課程，讓有興趣的人能夠線上報名參加活動。
+                </p>
+                <span class="badge badge-pill">Vue.js</span>
+                <span class="badge badge-pill">Quasar</span>
+                <span class="badge badge-pill">Sass</span>
+                <span class="badge badge-pill">JavaScript</span>
+                <span class="badge badge-pill">Axios</span>
+                <span class="badge badge-pill">Node.js</span>
+                <span class="badge badge-pill">MongoDB</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-8 px-md-2">
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <a class="btn btn-link text-decoration-none " type="button" data-toggle="collapse" data-target="#collapseOne">小酒窩概念發想</a>
+                  </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>　　本網站的發想將分為兩個面向說明，第一個面向是以使用者(消費者、買家)為出發點，當使用者今日不希望出門與人群聚，或使用者是忙碌的上班族，無暇抽空購買想喝的酒品，但又想好好地品酒時，本網站將可滿足其需求。</p>
+                    <p>　　第二個面向則為管理者(生產者、賣家)發想，若因疫情或其他因素影響，而實體店鋪的店租、人事費等成本大於營收，那也許收起實體店面，轉型開辦網路商城將是另一個選擇。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <a
+                      class="btn btn-link text-decoration-none collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                    >
+                      使用者前台
+                    </a>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body row">
+                    <div class="col-12 col-xl-6 px-0">
+                      <ul>
+                        <p class="subtitile">前台功能</p>
+                        <li>會員註冊／登入</li>
+                        <li>最新消息／全部商品／課程活動瀏覽</li>
+                        <li>加入購物車／送出訂單／填寫意見訊息功能</li>
+                        <li>查看會員資料及修改</li>
+                        <li>查看會員訂單、意見訊息詳細資訊</li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-xl-6 px-0">
+                      <ul>
+                        <p class="subtitile">前台使用技術</p>
+                        <li>使用 Quasar 開發、切版</li>
+                        <li>以 Pinia 存取使用者資訊</li>
+                        <li>Vue Router 頁面切換</li>
+                        <li>SASS 預處理器</li>
+                        <!-- <li>RWD 響應式網頁設計</li> -->
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <a
+                      class="btn btn-link text-decoration-none collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                    >
+                      管理者後台
+                    </a>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body row">
+                    <div class="col-12 col-xl-6 px-0">
+                      <ul>
+                        <p class="subtitile">後台功能</p>
+                        <li>新增商品／消息／課程活動</li>
+                        <li>修改發布至前台的各項資訊內容</li>
+                        <li>刪除訂單資訊</li>
+                        <li>查詢及編輯會員會員資料</li>
+                        <li>回覆會員訊息功能</li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-xl-6 px-0">
+                      <ul>
+                        <p class="subtitile">後台使用技術</p>
+                        <li>處理前端請求：<br> Node.js + Express 套件</li>
+                        <li>資料存取：<br> MongoDB + Mongoose 套件</li>
+                        <li>部署網頁到 Render</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content05">
+          <hr />
+        </div>
+        <div class="row content05">
+          <div class="col-12 col-md-6 col-lg-4 px-md-2">
+            <a class="card h-100 text-decoration-none" href="https://arielqwq.github.io/vuetify-pomodoro/#/" target="_blank">
+              <!-- <img src="./images/camppy.jpg" class="card-img-top" /> -->
+              <div class="card-body">
+                <h5 class="card-title">番茄鐘</h5>
+                <p class="card-text">這是一款可以讓使用者自行新增及編輯代辦項目的線上番茄鐘，在 TO DO LIST 頁面中可以查看代辦項目及過去已完成的項目，在 SETTINGS 頁面則可以選擇更換提醒鈴聲。首頁奔跑的小番茄將陪你一起度過每個專注的時光 ! </p>
+
+                <span class="badge badge-pill">JavaScript</span>
+                <span class="badge badge-pill">Vue.js</span>
+                <span class="badge badge-pill">HTML</span>
+                <span class="badge badge-pill">CSS</span>
+
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 px-md-2">
+            <a class="card h-100 text-decoration-none" href="https://arielqwq.github.io/clock/" target="_blank">
+              <!-- <img src="./images/cafe.jpg" class="card-img-top" /> -->
+              <div class="card-body">
+                <h5 class="card-title">線上時鐘</h5>
+                <p class="card-text">這是一個日系的線上時鐘，陪你度過一整天。</p>
+                <span class="badge badge-pill">HTML</span>
+                <span class="badge badge-pill">CSS</span>
+                <span class="badge badge-pill">JavaScript</span>
+                <!-- <span class="badge badge-pill">Bootstrap</span> -->
+              </div>
+            </a>
+          </div>
+
+          <!-- <div class="col-12 col-md-6 col-lg-4 px-md-2">
+            <a class="card h-100 text-decoration-none" href="https://june930725.github.io/Vue-Album/#/" target="_blank">
+              <img src="./images/album.JPG" class="card-img-top" />
+              <div class="card-body" style="border-top: 1px solid #ddd">
+                <h5 class="card-title">線上相簿</h5>
+                <p class="card-text">線上相簿提供使用者註冊及登入。登入會員後會跳至個人相簿空間，可於個人空間上傳相片，相片發布後具編輯及刪除功能。</p>
+                <p style="font-size: 15px; margin-bottom: 0.5rem; color: firebrick">帳號：guest / 密碼：guest</p>
+                <span class="badge badge-pill">Vue.js</span>
+                <span class="badge badge-pill">pug</span>
+                <span class="badge badge-pill">Bootstrap Vue</span>
+                <span class="badge badge-pill">JavaScript</span>
+                <span class="badge badge-pill">Axios</span>
+                <span class="badge badge-pill">Node.js</span>
+                <span class="badge badge-pill">MongoDB</span>
+              </div>
+            </a>
+          </div> -->
+
+          <div class="col-12 col-md-6 col-lg-4 px-md-2">
+            <a class="card h-100 text-decoration-none" href="https://arielqwq.github.io/50Tone/" target="_blank">
+              <!-- <img src="./images/abc.JPG" class="card-img-top" /> -->
+              <div class="card-body">
+                <h5 class="card-title">誰是 50 音小天才</h5>
+                <p class="card-text">使用 CSS 3D 實現翻牌配對遊戲。提供大小朋友學習及認知日文字母平假名及片假名，藉以強化對平、片假名的記憶。</p>
+                <span class="badge badge-pill">HTML</span>
+                <span class="badge badge-pill">CSS</span>
+                <span class="badge badge-pill">jQuery</span>
+                <span class="badge badge-pill">Illustrator</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 px-md-2">
+            <a class="card h-100 text-decoration-none" href="https://arielqwq.github.io/PikaPika/" target="_blank">
+              <!-- <img src="./images/money.jpg" class="card-img-top" /> -->
+              <div class="card-body">
+                <h5 class="card-title">喚醒皮卡丘吧 !</h5>
+                <p class="card-text">使用 jQuery 的 DOM 操作和動畫製作而成。時間內，點擊寶貝球喚醒皮卡丘分數加一分，點擊皮卡丘最愛的番茄醬分數再加三分 ! 時間結束時，會計算總共喚醒幾隻皮卡丘。</p>
+                <span class="badge badge-pill">HTML</span>
+                <span class="badge badge-pill">CSS</span>
+                <span class="badge badge-pill">jQuery</span>
+                <span class="badge badge-pill">Photoshop</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 px-md-2">
+            <a class="card h-100 text-decoration-none" href="https://arielqwq.github.io/css--zong-zuo-ye-template-rwd-wang-zhan/">
+              <!-- <img src="./images/hole.jpg" class="card-img-top" /> -->
+              <div class="card-body">
+                <h5 class="card-title">飯店官網切版臨摹練習</h5>
+                <p class="card-text">以 HTML 及 CSS 練習切出一頁式網頁。 </p>
+                <span class="badge badge-pill">HTML</span>
+                <span class="badge badge-pill">CSS</span>
+                <!-- <span class="badge badge-pill">JavaScript</span>
+                <span class="badge badge-pill">Photoshop</span> ---->
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section06">
+      <div class="container">
+        <h1 id="contact" class="text-center">Contact Me</h1>
+        <div class="text-center">
+          <a
+            href="https://mail.google.com/mail/u/0/?view=cm&amp;fs=1&amp;tf=1&amp;to=hilight0725@gmail.com
+          "
+            ><i class="fas fa-envelope"></i></a
+          >&nbsp;&nbsp;
+          <a href="https://github.com/June930725"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="d-flex justify-content-center">
+      <div role="status">
+        <img src="./images/cloud.svg" alt="" />
+      </div>
+    </div> -->
+
+    <footer id="footer">
+      <!-- <p class="text-center">
+        © Copyright 2021. All Rights Reserved
+        <br />
+        Designed by YC,Wu
+      </p> -->
+    </footer>
+
+
+  </div>
+
+
+  
+</body>
+<script src="./js/jquery-3.6.3.js"></script>
+<script src="./js/popper.min.js"></script>
+<!-- bs -->
+<script src="./js/bootstrap.bundle.js"></script>
+<script src="./js/jarallax.js"></script>
+
+<script>
+  // // 回到頂端 top 按鈕
+  // $('#go_top_page').css({ display: 'none' })
+  // let nowlocated = 0
+  $(window).on('scroll', function () {
+    // 目前捲軸捲動的距離(與最頂端 0 之間的距離)
+    nowlocated = $(window).scrollTop()
+    console.log(nowlocated);
+    // 捲軸捲動位置小於 520，#navbar 背景變成透明
+    if (nowlocated <= 520) {
+      $('#navbar').css({
+        // background: 'transparent',
+        background: '#999',
+        opacity: '0.8',
+      })
+    } else {
+      $('#navbar').css({
+        background: '#000',
+        opacity: '1',
+      })
+    }
+  })
+
+  $('.navbar-toggler').on('click', function () {
+    $('#navbar').toggleClass('toggle_black')
+  })
+</script>
+
+</html>
